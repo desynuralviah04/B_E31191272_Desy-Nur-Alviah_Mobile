@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tugas_3Activity</string>
+    <string name="email">email</string>
+    <string name="masuk">masuk</string>
+    <string name="password">password</string>
+    <string name="Inputkan_Email_User">Inputkan_Email_User</string>
+    <string name="Inputkan_Password">Inputkan_Password</string>
+</resources>
