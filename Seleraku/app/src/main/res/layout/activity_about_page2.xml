@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#EFEFEF"
+    android:layout_height="match_parent"
+    tools:context=".About_page2">
+    <!--title swipe-->
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/khusus"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="ABOUT US"
+                android:textColor="@color/warnaputih"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="Seleraku merupakan salah satu rumah makan di Jember yang menyediakan berbagai macam menu, seperti lalapan, pecel ayam, geprek, dan bakaran. Rumah makan ini memiliki cita rasa yang khas, sehingga tiap lidah yang merasakannya akan ketagihan untuk mencobanya terus. Saat ini Rumah makan seleraku telah membuka cabang di beberapa tempat, yaitu di Sidoarjo dan Surabaya."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="Konsumen dapat memesan menu yang tersedia secara online maupun offline. Konsumen dapat memesan melalui web Seleraku ataupun aplikasi Seleraku pada Playstore. "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="Yuk! pesen makan di Rumah Makan SELERAKU dijamin tidak mengecewakan perut dan lidah Anda!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

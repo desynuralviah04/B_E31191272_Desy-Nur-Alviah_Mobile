@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.seleraku">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.seleraku.k_pisang"></activity>
+        <activity android:name="com.example.seleraku.ote_ote" />
+        <activity android:name="com.example.seleraku.jamur" />
+        <activity android:name="com.example.seleraku.k_tahu" />
+        <activity android:name="com.example.seleraku.singkong" />
+        <activity android:name="com.example.seleraku.krupuk" />
+        <activity android:name="com.example.seleraku.telur" />
+        <activity android:name="com.example.seleraku.tahu" />
+        <activity android:name="com.example.seleraku.tempe" />
+        <activity android:name="com.example.seleraku.nasi" />
+        <activity android:name="com.example.seleraku.kopi" />
+        <activity android:name="com.example.seleraku.melon" />
+        <activity android:name="com.example.seleraku.cappucino" />
+        <activity android:name="com.example.seleraku.mangga" />
+        <activity android:name="com.example.seleraku.jambu" />
+        <activity android:name="com.example.seleraku.jeruk" />
+        <activity android:name="com.example.seleraku.teh" />
+        <activity android:name="com.example.seleraku.nasi_goreng" />
+        <activity android:name="com.example.seleraku.pecel" />
+        <activity android:name="com.example.seleraku.bebek_goreng" />
+        <activity android:name="com.example.seleraku.ayam_geprek" />
+        <activity android:name="com.example.seleraku.ayam_goreng" />
+        <activity android:name="com.example.seleraku.baju3" />
+        <activity android:name="com.example.seleraku.Baju2" />
+        <activity android:name="com.example.seleraku.Baju1" />
+        <activity android:name="com.example.seleraku.Ketentuan_page3" />
+        <activity android:name="com.example.seleraku.About_page2" />
+        <activity android:name="com.example.seleraku.Daftar3" />
+        <activity android:name="com.example.seleraku.Daftar2" />
+        <activity android:name="com.example.seleraku.Terbaru_1" />
+        <activity android:name="com.example.seleraku.Daftar_1" />
+        <activity android:name="com.example.seleraku.Jacket_page4" />
+        <activity android:name="com.example.seleraku.Hoodie_3" />
+        <activity android:name="com.example.seleraku.Accessories_2" />
+        <activity android:name="com.example.seleraku.Tshrsit_1" />
+        <activity android:name="com.example.seleraku.Login_page7Activity" />
+        <activity android:name="com.example.seleraku.MainActivity" />
+        <activity android:name="com.example.seleraku.menaksir_page5Activity" />
+        <activity android:name="com.example.seleraku.promo_page4Activity" />
+        <activity android:name="com.example.seleraku.katagori_page2Activity" />
+        <activity android:name="com.example.seleraku.More" />
+        <activity android:name="com.example.seleraku.News" />
+        <activity android:name="com.example.seleraku.Shop" />
+        <activity android:name="com.example.seleraku.Home" />
+        <activity android:name="com.example.seleraku.Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
